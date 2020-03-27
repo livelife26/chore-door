@@ -8,4 +8,4 @@ Next time I'll do better!
 
 ## Demo 
 
-Demo is available [here](https://livelife26.github.io/chore-door/).
+Demo is available [here](https://livelife26.github.io/chore-door/src/).
