@@ -1,65 +1,115 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
 body {
     background-color: #010165;
-    margin: 0px;
-  }
-
-.header {
-    background-color: #00ffff;
+    font-family: 'Work Sans';
     text-align: center;
 }
 
+.header {
+    background-color: #00ffff;
+    height: 100px;
+}
+
+.header > img {
+    height: 100%;
+}
+
 .title-row {
-    margin-top: 42px;
-    margin-bottom: 21px;
-    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
 
 .instructions-title {
     display: inline;
-    font-size: 18px;
+    font-size: 60px;
     color: #00ffff;
-    font-family: 'Work Sans';
 }
 
 .instructions-row {
     margin: 0 auto;
-    width: 400px;
+    width: 800px;
 }
 
 .instructions-number {
     padding-right: 25px;
-    font-family: 'Work Sans';
-    font-size: 36px;
+    font-size: 50px;
     color: #00ffff
 }
 
 .instructions-text {
     padding: 10px;
-    font-family: 'Work Sans';
-    font-size: 14px;
-    color: #ffffff
-}
-
-.door-row {
-    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: left;
 }
 
 .door-frame {
     cursor: pointer;
-    padding: 10px;
+    padding: 30px;
+    padding-top: 150px;
+    padding-bottom: 86px;
+}
+
+.door-row > img {
+    width: 250px;
 }
 
 .start-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    width: 120px;
-    height: 43px;
-    font-family: 'Work Sans';
+    width: 280px;
+    height: 120px;
     background-color: #eb6536;
-    padding-top: 18px;
-    font-size: 18px;
-    text-align: center;
+    font-size: 46px;
     color: #010165;
-    margin-bottom: 21px;
     cursor: pointer;
 }
+
+@media (min-width: 992px) {
+
+    .header {
+        height: 50px;
+    }    
+
+    .title-row {
+        margin-top: 42px;
+        margin-bottom: 21px;
+    }
+
+    .instructions-title {
+        font-size: 18px;
+    }
+
+    .instructions-row {
+        width: 400px;
+    }
+
+    .instructions-number {
+        font-size: 36px;
+    }
+
+    .instructions-text {
+        font-size: 14px;
+    }
+
+    .door-frame {
+        padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .door-row > img {
+        width: 120px;
+    }
+
+    .start-row {
+        width: 120px;
+        height: 43px;
+        font-size: 18px;
+    }
+}
+
 
