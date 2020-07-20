@@ -1,115 +1,161 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
 body {
-    background-color: #010165;
-    font-family: 'Work Sans';
-    text-align: center;
+  background-color: #010165;
+  font-family: 'Work Sans';
+  text-align: center;
 }
 
 .header {
-    background-color: #00ffff;
-    height: 100px;
+  background-color: #00ffff;
+  height: 40px;
 }
 
 .header > img {
-    height: 100%;
+  height: 100%;
 }
 
 .title-row {
-    margin-top: 100px;
-    margin-bottom: 80px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .instructions-title {
-    display: inline;
-    font-size: 60px;
-    color: #00ffff;
+  display: inline;
+  font-size: 26px;
+  color: #00ffff;
 }
 
 .instructions-row {
-    margin: 0 auto;
-    width: 800px;
+  margin: 0 auto;
+  width: 320px;
 }
 
 .instructions-number {
-    padding-right: 25px;
-    font-size: 50px;
-    color: #00ffff
+  padding-right: 12px;
+  font-size: 26px;
+  color: #00ffff;
 }
 
 .instructions-text {
-    padding: 10px;
-    font-size: 36px;
-    color: #ffffff;
-    text-align: left;
+  padding: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: left;
 }
 
 .door-frame {
-    cursor: pointer;
-    padding: 30px;
-    padding-top: 150px;
-    padding-bottom: 86px;
+  cursor: pointer;
+  padding: 10px;
+  padding-top: 36px;
+  padding-bottom: 32px;
 }
 
 .door-row > img {
-    width: 250px;
+  width: 80px;
 }
 
 .start-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 280px;
-    height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 92px;
+  height: 46px;
+  background-color: #eb6536;
+  font-size: 16px;
+  color: #010165;
+  cursor: pointer;
+}
+
+@media (min-width: 550px) and (max-width: 996px) {
+  .header {
+    height: 46px;
+  }
+
+  .title-row {
+    margin-top: 42px;
+    margin-bottom: 24px;
+  }
+
+  .instructions-title {
+    font-size: 32px;
+  }
+
+  .instructions-row {
+    margin: 0 auto;
+    width: 520px;
+  }
+
+  .instructions-number {
+    padding-right: 12px;
+    font-size: 32px;
+  }
+
+  .instructions-text {
+    padding: 6px;
+    font-size: 20px;
+  }
+
+  .door-frame {
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 42px;
+  }
+
+  .door-row > img {
+    width: 180px;
+  }
+
+  .start-row {
+    width: 180px;
+    height: 60px;
     background-color: #eb6536;
-    font-size: 46px;
-    color: #010165;
-    cursor: pointer;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: 992px) {
 
-    .header {
-        height: 50px;
-    }    
+  .header {
+    height: 50px;
+  }
 
-    .title-row {
-        margin-top: 42px;
-        margin-bottom: 21px;
-    }
+  .title-row {
+    margin-top: 42px;
+    margin-bottom: 21px;
+  }
 
-    .instructions-title {
-        font-size: 18px;
-    }
+  .instructions-title {
+    font-size: 18px;
+  }
 
-    .instructions-row {
-        width: 400px;
-    }
+  .instructions-row {
+    width: 400px;
+  }
 
-    .instructions-number {
-        font-size: 36px;
-    }
+  .instructions-number {
+    font-size: 36px;
+  }
 
-    .instructions-text {
-        font-size: 14px;
-    }
+  .instructions-text {
+    font-size: 14px;
+  }
 
-    .door-frame {
-        padding: 10px;
-        padding-top: 30px;
-        padding-bottom: 10px;
-    }
+  .door-frame {
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 26px;
+  }
 
-    .door-row > img {
-        width: 120px;
-    }
+  .door-row > img {
+    width: 120px;
+  }
 
-    .start-row {
-        width: 120px;
-        height: 43px;
-        font-size: 18px;
-    }
+  .start-row {
+    width: 120px;
+    height: 43px;
+    font-size: 18px;
+  }
 }
-
-
