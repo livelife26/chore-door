@@ -66,11 +66,18 @@ startButton.onclick = () => {
   }
 };
 
+const counter = document.getElementById('counter');
+let score = 0;
+
 const gameOver = (status) => {
   if (status === 'win') {
     startButton.innerHTML = 'You win! Play again?';
+    score += 1;
+    counter.innerHTML = score;
   } else {
     startButton.innerHTML = 'Game Over! Play again?';
+    score = 0;
+    counter.innerHTML = score;
   }
   currentlyPlaying = false;
 };
