@@ -141,51 +141,51 @@ body {
 
 @media (min-width: 992px) {
   .header {
-    height: 50px;
+    height: 60px;
   }
 
   .title-row {
-    margin-top: 42px;
-    margin-bottom: 21px;
+    margin-top: 46px;
+    margin-bottom: 23px;
   }
 
   .instructions-title {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .instructions-row {
-    width: 400px;
+    width: 500px;
   }
 
   .instructions-number {
-    font-size: 36px;
+    font-size: 40px;
   }
 
   .instructions-text {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .door-frame {
-    padding: 10px;
-    padding-top: 30px;
-    padding-bottom: 26px;
+    padding: 15px;
+    padding-top: 35px;
+    padding-bottom: 30px;
   }
 
   .door-row > img {
-    width: 120px;
+    width: 160px;
   }
 
   .container {
-    width: 400px;
+    width: 460px;
   }
 
   .counter {
-    font-size: 46px;
+    font-size: 50px;
   }
 
   .start-row {
-    width: 120px;
-    height: 43px;
-    font-size: 18px;
+    width: 160px;
+    height: 48px;
+    font-size: 20px;
   }
 }
